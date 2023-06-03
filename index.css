@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    max-width: 500px;
+}
+
+#title{
+    text-align: center;
+    padding: 10%;
+    color: red;
+}
+
+.button{
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 10px;
+}
+
+grid.item {
+    border: 1px solid black;
+    /* padding: 10px; */
+}
+
+.reset{
+    width: 100px;
+    text-align: center;
+    padding: 1%;
+    color: red;
+}
